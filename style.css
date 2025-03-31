@@ -1,0 +1,86 @@
+body { 
+    background-color: #000000
+}
+header {
+    display:flex;
+    height: 150px;
+    background-color: #1e1072; /* Color de fondo oscuro / / Color del texto */
+    justify-content:  center;
+    align-items:center  ;
+    padding: 3px;
+}
+
+h1 {
+    color: #eaf8fd;
+    font-size: 50px;
+    text-align: center;
+}
+h2 {
+    color: #ffffff;
+    font-size: 36px;
+    text-align: center
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; /* Define una fuente base */
+}
+
+.contenedor {
+    display: flex;
+    align-items: center; /* Alinea la imagen y el video verticalmente */
+    gap: 20px; /* Espacio entre ellos */
+    justify-content: center; /* Centra horizontalmente */
+    margin: 50px auto; /* Agrega espacio arriba y abajo, y lo centra en la página */
+    max-width: fit-content; /* Ajusta el ancho al contenido */
+}
+
+.contenedor- img {
+    width: 400px; /* Ajusta el tamaño de la imagen */
+    height: 250px;
+}
+
+.contenedor- iframe {
+    width: 400px; /* Ajusta el tamaño del video */
+    height: 250px;
+}
+.boton-contenedor {
+    text-align: center; /* Centra el botón debajo del contenedor */
+    margin-top: 10px; /* Espacio entre el video/imagen y el botón */
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #03045e; /* Color de fondo oscuro / / Color del texto */
+    background-color:; /* Color azul */
+    color: #f2f2f7;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.boton:hover {
+    background-color: #e8ebef; /* Color más oscuro al pasar el mouse */
+}
+.descripcion-nike p {
+    color: white;
+    font-size: 12px;
+
+}
+.titulo-jordan p{
+    color:rgb(231, 223, 223);
+    font-size: 35px;
+    text-align: center;
+}
+
+.logo{
+    display: flex;
+    align-items:110px ;
+}
+
+.logo img{
+    height: 110px;
+}
+
